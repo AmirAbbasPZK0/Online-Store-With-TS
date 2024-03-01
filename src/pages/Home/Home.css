@@ -1,0 +1,22 @@
+.home{
+    padding: 1rem;
+}
+
+.home h1{
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.products_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+}
+
+@media screen and (max-width:1000px) {
+    .products_list{
+        grid-template-columns: 1fr;
+    }
+}
